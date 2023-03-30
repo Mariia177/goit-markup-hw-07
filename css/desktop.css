@@ -1,0 +1,35 @@
+ /*
+ @media screen and (min-width: 1470px) {
+    .container {
+      max-width: 1470px;
+    }
+
+   .strategy {
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+   .we-doing {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
+.section-team {
+ padding-top: 120px;
+ padding-bottom: 120px;
+}
+
+
+
+.photo-card{
+
+}
+.photo-card .section-personnel{
+    flex-basis: calc((100% -72px) / 4);
+}
+
+   }
+
+/*
