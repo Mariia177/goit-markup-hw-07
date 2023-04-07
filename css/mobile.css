@@ -1,7 +1,23 @@
-/* @media screen and (min-width: 458px) {
-    .customers-item {
-        flex-basis: calc((100% - 18px) / 2);
+@media screen and (min-width: 510px) {
+    .container{
+        max-width: 510px;
+    } 
+    .container,
+    .customers {
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
+    @media screen and (min-width: 510px) {
+        .photo-card .section-personnel{
+    max-width: 264px;
+    flex-basis: calc(100% - 34px);
+    text-align: center;
+        }
+        
     }
-*/
+    .customers-item  {
+        flex-basis: calc((100% - 16px) / 2);
+    }
+    
 
+}
