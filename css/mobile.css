@@ -15,9 +15,13 @@
         }
         
     }
-    .customers-item  {
-        flex-basis: calc((100% - 16px) / 2);
+    @media screen and (min-width: 510px) {
+         .customers-list .customers-item  {
+            flex-basis: calc(100% - 16px);
+    } 
+        
     }
-    
 
 }
+
+

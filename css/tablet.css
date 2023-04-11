@@ -18,13 +18,28 @@
         }
         
        
-        .customers-item {
+       .customers-list .customers-item {
             flex-basis: calc((100% - 24px) / 2);
         }
 
         }
+    .customers-list{
+        column-gap: 24px;
+    }
 
 
-    
+
+    @media screen and (min-width: 798px) {
+        .foot-tex  {
+            flex-direction: column;
+            gap: 72px;
+        }
+    }
   
- 
+   
+        .footer-content{
+          max-width: 268px;
+          margin: 0 auto;
+        }
+        
+      

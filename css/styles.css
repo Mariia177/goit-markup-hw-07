@@ -203,10 +203,32 @@ font-family: Roboto, sans-serif;
 
    .photo-card{
     display: flex;
-    gap: 24px;
-
-    flex-wrap: wrap;
+     gap: 24px;
+    flex-wrap: wrap; 
    }
+
+   @media screen and (max-width:1470px) {
+    .photo-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+    }
+   }
+  
+   @media screen and (max-width:798px) {
+    .photo-card{
+    flex-direction: column;
+    gap: 72px;
+    }
+    
+   }
+
+
+
+
+
 
    .work-card{
    display: flex;
@@ -609,7 +631,7 @@ padding-bottom: 120px;
             color:var(--main-color-text);
            }
               .customers-list{
-              font-style: normal;
+             /* font-style: normal;
               letter-spacing: 0.2em;
               color: var(--customers-color);
               list-style: none;
@@ -617,9 +639,15 @@ padding-bottom: 120px;
               gap: 24px;
               justify-content: space-between;
               align-items: center;
-              padding-left: 0px;
-            } 
-          
+              padding-left: 0px; */
+              row-gap: 72px;
+              column-gap: 16px;
+              flex-wrap: wrap;
+              display: flex;
+              justify-content: center;
+              list-style: none;
+          }
+             
 
 
 
@@ -701,6 +729,7 @@ padding-bottom: 120px;
    
    .foot-tex{
     display:flex;
+    flex-direction: row;
    }
               .socials-footer{
                     width: 40px;
@@ -766,7 +795,9 @@ padding-bottom: 120px;
         margin-right: auto;
       }
 
-      
+      .footer-content{
+        margin-right: 120px;
+      }
 
 
 
