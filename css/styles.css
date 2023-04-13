@@ -688,8 +688,9 @@ padding-bottom: 120px;
            .footer {
             display: flex;
             background-color:var(--color-footer);
-            padding: 100px 0px;
+            padding: 96px 96px;
              }
+           
 
             .accent{
                 color:var(--accent-color);  
@@ -798,7 +799,7 @@ padding-bottom: 120px;
       .footer-content{
         margin-right: 120px;
       }
-
+      
 
 
        /* Social */
@@ -1147,6 +1148,12 @@ button, input, optgroup, select, textarea {
 .column{
     margin-left: 80px;
 }
+@media screen and (max-width:320px) and (max-width:767px) {
+.column{
+    width: 100%;
+}
+}
+    
 
 
 .footer-column{
