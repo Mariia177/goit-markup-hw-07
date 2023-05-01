@@ -1,4 +1,4 @@
-@media screen and (min-width: 1470px) {
+@media screen and (min-width: 1158px) {
     .container
      {
         max-width: 1470px;
@@ -29,5 +29,11 @@
   
 }
 
-   
+@media screen and (min-width:1158px){
+  .customers{
+      padding-top: 96px;
+      padding-bottom: 96px;
+  }
+  
+}  
    
